@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener, AfterViewInit } from '@angular/core';
 import { fromEvent, Subscription } from 'rxjs';
+import { Analytics } from "@vercel/analytics/react"
 
 import { throttleTime} from 'rxjs/operators';
 import { ScrollSpyService } from 'ng-spy';
